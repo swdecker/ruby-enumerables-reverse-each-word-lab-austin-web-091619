@@ -1,9 +1,11 @@
 def reverse_each_word(sentence)
   sent_arr = sentence.split
-  reverse_arr = sent_arr.each do |w|
-    
+  rever_arr = []
+  index = 0 
+  sent_arr.each do |w|
     puts w.reverse
-    return w.reverse
+    
+    w.reverse
   end
   
   puts sent_arr[0].reverse
