@@ -4,8 +4,8 @@ def reverse_each_word(sentence)
   index = 0 
   sent_arr.each do |w|
     puts w.reverse
-    
-    w.reverse
+    reverse_arr[index] = w.reverse
+    i++
   end
   
   puts sent_arr[0].reverse
