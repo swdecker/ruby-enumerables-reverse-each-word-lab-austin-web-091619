@@ -1,6 +1,6 @@
 def reverse_each_word(sentence)
   sent_arr = sentence.split
-  rever_arr = []
+  reverse_arr = []
   index = 0 
   sent_arr.each do |w|
     puts w.reverse
