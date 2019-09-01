@@ -6,6 +6,7 @@ def reverse_each_word(sentence)
     puts w.reverse
     reverse_arr[index] = w.reverse
     i++
+    w.reverse
   end
   
   puts sent_arr[0].reverse
