@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
   sent_arr.each do |w|
     puts w.reverse
     reverse_arr[index] = w.reverse
-    i++
+    index++
     w.reverse
   end
   
